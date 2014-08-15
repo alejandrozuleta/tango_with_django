@@ -11,7 +11,7 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 2.7.6 virtualenv at ~/PycharmProjects/tango_with_django_project/local" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 2.7.6 virtualenv at ~/PycharmProjects/tango_with_django/local" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
