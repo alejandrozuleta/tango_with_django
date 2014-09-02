@@ -28,6 +28,9 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+AUTHENTICATION_BACKENDS = (
+    'permission_backend_nonrel.backends.NonrelPermissionBackend',
+)
 
 # Application definition
 
@@ -39,6 +42,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rango',
+    'permission_backend_nonrel',
+
 )
 
 MIDDLEWARE_CLASSES = (
